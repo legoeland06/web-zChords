@@ -1,0 +1,24 @@
+<h1>Créez votre accord</h1>
+<h4>Fondamentales</h4>
+<div class="card-container">
+    <div routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" *ngFor="let note of notes">
+        <a [ngClass]="note.length == 2 ? 'card dieze' : 'card'" routerLink="{{note}}/{{quality}}/{{basse}}">{{ note }}</a>
+    </div>
+</div>
+<hr>
+<h4>Accords</h4>
+<div class="card-container">
+    <div routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
+        *ngFor="let note of notes">
+        <a class="card" routerLink="{{note}}/{{quality}}/{{basse}}">{{ note }}</a>
+    </div>
+</div>
+<hr>
+<h4>Basses</h4>
+<div class="card-container">
+    <div routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
+        *ngFor="let note of notes">
+        <a [ngClass]="note.length == 2 ? 'card dieze' : 'card'" routerLink="{{note}}/{{quality}}/{{basse}}">{{ note }}</a>
+    </div>
+</div>
+<hr>
