@@ -14,7 +14,7 @@
     border-radius: 4px;
     border: 1px solid #eee;
     background-color: #fafafa;
-    
+    height: 60px;
     margin: 0 8px 16px;
     padding: 16px;
     display: flex;
@@ -88,5 +88,39 @@ a {
 .dieze{
     background-color: black;
     color:lightgray;
-    height: 40px;
+    width: 10px;
+    height: 30px;
+}
+
+.bass-brown{
+    color : brown;
+    font-size: large;
+    font-weight: bold;
+}
+
+.quality-green{
+    color:green;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.fondamentale-bleu{
+    color:blue;
+    font-size: xx-large;
+}
+.card-accord{
+    all: unset;
+    border-radius: 16px;
+    border: 1px solid rgb(232, 232, 232);
+    background-color: #fafafa;
+    height: 60px;
+    margin: 0 8px 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: bottom;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+
 }
